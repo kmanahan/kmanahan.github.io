@@ -1,11 +1,11 @@
 # Site settings
 author: Kelly Manahan
-title: Object Initialization
+title: Learn
 header-img: img/home-bg.png
 email: kelly.a.manahan@gmail.com
 copyright_name: Kelly Manahan
 description: > # this means to ignore newlines until "baseurl:"
-  intro to initialization
+  recap info
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kmanahan
