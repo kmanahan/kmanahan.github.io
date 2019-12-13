@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "SQL the Basics"
-date:       2019-12-13 18:53:14 +0000
+date:       2019-12-13 13:53:15 -0500
 permalink:  sql_the_basics
 ---
 
