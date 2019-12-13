@@ -24,7 +24,7 @@ To exit the command prompt use `.quit`
 *If you happen to get stuck in the sql command prompt and keep seeing this `..>` just type in a semicolon. 
 *
 
-To create a database create a file (filename.db). Then create a sql file (01_create_table) Insert whatever column information is needed. Save and add this to the database by doing this **filename.db < 01_create_table**. You can confirm the table is created by opening the sql command prompt (sqlite3 filename.db) and running the schema command. Once you've confirmed it updated, exit.
+To create a database create a file (filename.db). Then create a sql file (01_create_table) Insert whatever column information is needed. Save and add this to the database by doing this **filename.db < 01_create_table.sql**. You can confirm the table is created by opening the sql command prompt (sqlite3 filename.db) and running the schema command. Once you've confirmed it updated, exit.
 
 ## SQL datatypes 
 
@@ -88,9 +88,18 @@ Tabby                              3
 
 ## Aggregators
 
-AVG(), - average value of a column.
-SUM(),- sum of all of the values in a particular column 
-MIN() and MAX() - minimum and maximum values from a specified column.
+AVG(), - average value of a column:
+**SELECT AVG(column_name) FROM table_name;**
+
+**AS** keyword to rename the column. This is called "aliasing the return value".
+
+SUM(),- sum of all of the values in a particular column:
+**SELECT SUM(column_name) FROM table_name;**
+
+MIN() and MAX() - minimum and maximum values from a specified column:
+**SELECT MIN(column_name) FROM table_name;
+SELECT MAX(column_name) FROM table_name;**
+
 COUNT() - count function returns the number of rows that meet a certain condition:
 **SELECT COUNT(column_name) FROM table_name;** => returns integer
 
