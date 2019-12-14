@@ -44,12 +44,15 @@ SELECT * FROM cats;
 *this returns the same as above, but with more typing:
 (SELECT id, name, age, breed FROM cats;) 
 
+
 Can also be written like:
 SELECT cats.name FROM cats;
 
 To select more then one table  but not all include a comma in between table names.
 
 Use WHERE to retrieve specific table row. **SELECT * FROM table_name WHERE column_name = some_value;**
+*to include a string for valuse use single quote within double quotes
+
 
 To update **UPDATE [table name] SET [column name] = [new value] WHERE [column name] = [value];**
 
@@ -57,6 +60,7 @@ To delete **UPDATE [table name] SET [column name] = [new value] WHERE [column na
 
 ## SQL queries 
 ORDER BY. This modifier allows us to order the table rows returned by a certain SELECT statement:
+
 **SELECT column_name FROM table_name ORDER BY column_name ASC|DESC;
 **
 
