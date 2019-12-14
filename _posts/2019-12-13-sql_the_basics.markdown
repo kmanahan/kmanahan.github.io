@@ -109,3 +109,16 @@ SELECT MAX(column_name) FROM table_name;**
 COUNT() - count function returns the number of rows that meet a certain condition:
 **SELECT COUNT(column_name) FROM table_name;** => returns integer
 
+
+## SQL JOINS
+
+Type	Description: 
+
+**INNER JOIN**	Returns all rows when there is at least one match in BOTH tables
+
+**LEFT [OUTER] JOIN**	Returns all rows from the left table, and the matched rows from the right table
+
+**RIGHT JOIN***	Returns all rows from the right table, and the matched rows from the left table
+
+**FULL JOIN***	Returns all rows when there is a match in ONE of the tables
+
