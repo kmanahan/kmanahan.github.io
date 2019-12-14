@@ -33,6 +33,8 @@ INTEGER - whole number
 REAL - decimal number 
 BLOB - stores binary data
 
+NULL - cannot be combined with operators must use IS syntax instead
+
 ## Inserting, Updating, and Selecting
 
 INSERT INTO command, followed by the name of the table followed by the VALUES keyword ('Maru', 3, 'Scottish Fold');
