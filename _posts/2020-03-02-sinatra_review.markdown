@@ -36,14 +36,14 @@ If the session hash is stored in an instance variable, `@session`, the views wil
 
 ###  has_secure_password
 has_secure_password is added to the model class and has built in validations to make sure passowrd is not blank.
-there is an "invisible" method (.authenticate) in has_secure_password that makes sure the password provided is correct
+there is an "invisible" macro method (.authenticate) in has_secure_password that makes sure the password provided is correct
 an ActiveRecord macro (method that when called, creates methods)
 it works with bcrypt so it isnt stored in plain text. 
 
 ###  ActiveRecord associations
 Associations are class methods that allow objects to relate (or associate) to each other through foreign keys. 
 
-has_many -more then one object can own many objects of the same class 
+has_many -more then one object can own many objects of the same class. This is also an ActiveRecord macro. 
 belongs_to - one to one association with another class, this class with have the foreign key associated with the class it belongs to. 
 
 Foreign key's are used because tables need to know how to relate to one another. A foreign key will point to a primary key in another table.  
