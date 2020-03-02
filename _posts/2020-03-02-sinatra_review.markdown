@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Review"
-date:       2020-03-02 17:54:51 +0000
+date:       2020-03-02 12:54:53 -0500
 permalink:  sinatra_review
 ---
 
